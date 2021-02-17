@@ -107,7 +107,9 @@ const App: React.FC = () => {
           ],
         });
         await sdk.txs.getBySafeTxHash(safeTxHash);
-      } catch (_) {}
+      } catch (error) {
+        console.error(error);
+      }
     },
     [sdk]
   );
