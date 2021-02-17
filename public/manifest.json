@@ -1,6 +1,6 @@
 {
   "name": "Lido Staking",
   "description": "Lido is the liquid staking solution for Ethereum.",
-  "iconPath": "favicon.png",
+  "iconPath": "logo.svg",
   "providedBy": { "name": "Lido", "url": "https://lido.fi" }
 }

@@ -1,51 +1,17 @@
-# My Safe App
+# Lido Gnosis Safe App
 
-## Getting Started
+Lido is the liquid staking solution for Ethereum. This app is intended for
+Gnosis Safe. Its sole feature is to enable Gnosis safe owners to stake ETH with
+Lido.
 
-Install dependencies and start a local dev server.
+When staking with Lido, users receive stETH tokens on a 1:1 basis representing
+their staked ETH. stETH balances can be used like regular ETH to earn yields and
+lending rewards, and are updated on a daily basis to reflect your ETH staking
+rewards. Note that there are no lock-ups or minimum deposits when staking with
+Lido.
 
-```
-yarn install
-cp .env.sample .env
-yarn start
-```
+When using Lido, users receive secure staking rewards in real-time, allowing for
+participation in the securing of Ethereum without the associated risks and
+downside potential.
 
-Then:
-
-- If HTTPS is used (by default enabled)
-  - Open your Safe app locally (by default via https://localhost:3000/) and accept the SSL error.
-- Go to Safe Multisig web interface
-  - [Mainnet](https://app.gnosis-safe.io)
-  - [Rinkeby](https://rinkeby.gnosis-safe.io/app)
-- Create your test safe
-- Go to Apps -> Manage Apps -> Add Custom App
-- Paste your localhost URL, default is https://localhost:3000/
-- You should see Safe App Starter as a new app
-- Develop your app from there
-
-## Features
-
-Gnosis Safe App Starter combines recommendations described in the following repositories:
-
-- [Safe Apps SDK](https://github.com/gnosis/safe-apps-sdk)
-- [safe-react-components](https://github.com/gnosis/safe-react-components)
-
-You can use the `useSafe` React hook to interact with the Safe Apps SDK
-
-```
-const safe = useSafe();
-console.log(safe.info);
-```
-
-Safe React Components are also integrated and ready to use. [See all components](https://components.gnosis-safe.io/).
-
-## Dependencies
-
-### Included
-- [`@gnosis.pm/safe-react-components`](https://github.com/gnosis/safe-react-components) (UI components themed for the Safe Multisig interface)
-- [`@rmeissner/safe-apps-react-sdk`](https://github.com/rmeissner/safe-sdks-js/tree/master/safe-apps-react-sdk) (React hook for the Safe Apps SDK)
-
-### Recommended
-- [`ethers`](https://github.com/ethers-io/ethers.js) (Library for interacting with Ethereum)
-- [`web3`](https://github.com/ethereum/web3.js/) (Library for interacting with Ethereum)
-- [`@studydefi/money-legos`](https://github.com/studydefi/money-legos) (Library for DeFi interactions)
+[Learn more about Lido](https://lido.fi)
