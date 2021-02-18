@@ -83,8 +83,8 @@ const initialValues: FormikValues = {
   stakeAmount: "",
 };
 
-const LIDO_ADDRESS = '0xae7ab96520de3a18e5e111b5eaab095312d7fe84'; // Mainnet
-// const LIDO_ADDRESS = "0xbA453033d328bFdd7799a4643611b616D80ddd97"; // Rinkeby
+// const LIDO_ADDRESS = '0xae7ab96520de3a18e5e111b5eaab095312d7fe84'; // Mainnet
+const LIDO_ADDRESS = "0xbA453033d328bFdd7799a4643611b616D80ddd97"; // Rinkeby
 
 const App: React.FC = () => {
   const { sdk } = useSafeAppsSDK();
@@ -123,7 +123,7 @@ const App: React.FC = () => {
       {({ values, errors, setFieldValue, isValidating, isSubmitting }) => (
         <Container autoComplete="off">
           <TitleStyled size="md">
-            Lido Ethereum Staking
+            Lido Ethereum Staking (Rinkeby)
             <img src={Logo} alt="Lido logo" />
           </TitleStyled>
           <Text size="lg">
