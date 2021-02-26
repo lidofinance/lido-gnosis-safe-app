@@ -19,6 +19,7 @@ const Container = styled(Form)`
   margin-bottom: 2rem;
   width: 100%;
   max-width: 480px;
+  padding: 1.5rem;
 
   display: grid;
   grid-template-columns: 1fr;
@@ -53,8 +54,8 @@ const Line = styled.div`
 const Note = styled.div`
   max-width: 360px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 1rem;
+  left: 1.5rem;
 `;
 
 const validationSchema = yup.object().shape({
