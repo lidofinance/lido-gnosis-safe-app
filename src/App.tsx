@@ -124,7 +124,7 @@ const App: React.FC = () => {
       {({ values, errors, setFieldValue, isValidating, isSubmitting }) => (
         <Container autoComplete="off">
           <TitleStyled size="md">
-            Lido Ethereum Staking (Rinkeby)
+            Lido Ethereum Staking
             <img src={Logo} alt="Lido logo" />
           </TitleStyled>
           <Text size="lg">
