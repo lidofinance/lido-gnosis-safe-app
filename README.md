@@ -1,3 +1,5 @@
+Archived because the [Lido Widget](https://stake.lido.fi) has been integrated in the Gnosis Safe Apps. 
+
 # Lido Gnosis Safe App
 
 Lido is the liquid staking solution for Ethereum. This app is intended for
